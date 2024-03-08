@@ -39,7 +39,8 @@ dependencies {
 //    implementation 'org.springframework.boot:spring-boot-starter-security'
     testImplementation 'org.springframework.security:spring-security-test:6.2.2'
 
-
+    implementation 'redis.clients:jedis:3.7.0'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 
 
 
